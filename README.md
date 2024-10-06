@@ -6,7 +6,6 @@ This guide will walk you through setting up Apache Airflow using Docker.
 
 First, create the necessary directories and set up the environment variables.
 ```markdown
-```sh
 $ mkdir Airflow && cd Airflow
 $ mkdir -p ./dags ./logs ./plugins
 $ echo -e "AIRFLOW_UID=$(id -u)" > .env
@@ -54,3 +53,5 @@ $ docker ps
 
 Open your browser and go to [http://localhost:8080](http://localhost:8080). The default credentials are `airflow/airflow`.
 ```
+
+Ref : https://medium.com/@ericfflynn/my-journey-with-apache-airflow-d7d364fc84ba
